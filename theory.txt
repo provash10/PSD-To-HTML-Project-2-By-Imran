@@ -1,0 +1,676 @@
+PSD To HTML Project 2
+============================
+<link href="css/style.css" rel="stylesheet">
+<body>
+    <div class="container_full">
+        <div class="fix container">
+            
+        </div>
+    </div>
+</body>
+=====================================
+/* Basic CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif, Arial; !important;
+    -webkit-transion: all 0.5s ease;
+    transition: all 0,5s ease;
+}
+
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    margin
+}
+
+p{
+    line-height: 150%;
+    margin-bottom: 2em;
+}
+.fix{
+    overflow: hidden;
+}
+
+/* =========Basic CSS======= */
+================================================
+
+.floatleft{
+    float:left;
+}
+
+.floatright{
+    float: right;
+}
+===============================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSD To HTML Project 2</title>
+    <link href="css/style.css" rel="stylesheet">
+
+   <!-- bootstrap5 and js link -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+<body>
+    <!-- Header Part-->
+    <section>
+        <div class="container_full header_bg">
+            <div class="fix container">
+                <header id="header">
+                    <!-- left side -->
+                    <div class="logo floatleft">
+                        <h1>Etechon</h1>
+                    </div>
+
+                    <!-- right side -->
+                     <nav class="menu floatright">
+                        <ul>
+                            <li><a href="#">Home</a> </li>
+                            <li><a href="#">Blogs</a> </li>
+                            <li><a href="#">Portfolio</a> </li>
+                            <li><a href="#">Service</a> </li>
+                            <li><a href="#">Reviews</a> </li>
+                            <!-- <li><a href="#">Contact Us</a> </li> -->
+                        </ul>
+                     </nav>
+                </header>
+            </div>
+        </div>
+    </section>
+    <!-- slider part ******not Done***** -->
+    <section>
+        <div class="container_full slider_bg">
+            <div class="fix container">
+                <div id="slider_wrapper">
+                    <!-- use bootstarp 5 -->
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="img/bgi.jpg" class="d-block w-100" alt="bgi">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slider Part Not Complete</h5>
+                              <p>Please Fix The Error As Soon As Possible,Thank You.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <img src="img/Eco.jpg" class="d-block w-100" alt="Eco">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slider Part Not Complete</h5>
+                              <p>Please Fix The Error As Soon As Possible,Thank You.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/ec.jpg" class="d-block w-100" alt="ec">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slider Part Not Complete</h5>
+                              <p>Please Fix The Error As Soon As Possible,Thank You.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Slider Bottom paragraph part -->
+     <section>
+        <div class="container_full slider_bottom_area_bg">
+            <div class="fix container">
+                <div class="slider_bottom_area">
+                    <p>This is a Paragraph.This is a Paragraph.
+                        This is a Paragraph.This is a Paragraph.
+                        This is a Paragraph.This is a Paragraph.
+                        This is a Paragraph.This is a Paragraph.
+                        This is a Paragraph.This is a Paragraph.
+                        This is a Paragraph.This is a Paragraph.
+                        This is a Paragraph.This is a Paragraph.
+                        This is a Paragraph.This is a Paragraph.
+                        This is a Paragraph.This is a Paragraph.
+                        This is a Paragraph.This is a Paragraph.
+                        This is a Paragraph.This is a Paragraph.
+                        This is a Paragraph.This is a Paragraph.
+                        This is a Paragraph.This is a Paragraph.
+                        This is a Paragraph.This is a Paragraph.
+                        This is a Paragraph.This is a Paragraph.
+                        This is a Paragraph.This is a Paragraph.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- body/content Part 1:  Column Box Image -->
+    <section>
+        <div class="container_full column_wrapper_bg">
+            <div class="fix container">
+                <!-- Main Content  -->
+                <div class="fix column_wrapper">
+                    <div class="single_column col_first">
+                        <img src="img/blogo.png" alt="PD"/>
+                        <h2>Pack Design</h2>
+                        <p>This is a paragrph.</p>
+                        <a href="#"><img src="img/click here.png" alt="Click Here" class="view_icon"/></a>
+                    </div>
+
+                    <div class="single_column">
+                        <img src="img/blogo.png" alt="WD"/>
+                        <h2>Web Design</h2>
+                        <p>This is a paragrph.</p>
+                        <a href="#"><img src="img/click here.png" alt="Click Here" class="view_icon"/></a>
+                    </div>
+
+                    <div class="single_column">
+                        <img src="img/blogo.png" alt="ecom"/>
+                        <h2>Ecommerce </h2>
+                        <p>This is a paragrph.</p>
+                        <a href="#"><img src="img/click here.png" alt="Click Here" class="view_icon"/></a>
+                    </div>
+
+                    <div class="single_column col_last">
+                        <img src="img/blogo.png" alt="FS"/>
+                        <h2>Full Support</h2>
+                        <p>This is a paragrph.</p>
+                        <a href="#"><img src="img/click here.png" alt="Click Here" class="view_icon"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- body/content part 2 : About Us & Column Box Image -->
+    <section>
+        <div class="container_full content_wrapper_bg">
+            <div class="fix container">
+                <!-- about us -->
+                <div class="fix content_wrapper">
+                    <div class="content_left floatleft">
+                        <article id="about_us"></article>
+                        <h2 class="about_us_h2">About Us</h2>
+                        <p>This is  1st paragraph.This is  1st paragraph.This is  1st paragraph.This is  1st paragraph.
+                            This is  1st paragraph.This is  1st paragraph.This is  1st paragraph.This is  1st paragraph.
+                        </p>
+                        <p>This is  2nd paragraph.This is  1st paragraph.This is  1st paragraph.This is  1st paragraph.This is  1st paragraph.
+                            This is  1st paragraph.This is  1st paragraph.This is  1st paragraph.This is  1st paragraph.</p>
+                    </div>
+
+                    <div class="content_right floatright">
+                        <h2 class="content_right_h2">Latest Work</h2>
+                        <ul>
+                            <li><a href="#"> <img src="img/blogo.png" alt="..."/> </a> </li>
+                            <li><a href="#"> <img src="img/blogo.png" alt="..."/> </a> </li>
+                            <li><a href="#"> <img src="img/blogo.png" alt="..."/> </a> </li>
+                            <li><a href="#"> <img src="img/blogo.png" alt="..."/> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container_full">
+            <div class="fix container">
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- footer part footer top -->
+    <section>
+        <div class="container_full footer_top_bg">
+            <div class="fix container">
+                <div class="footer_top_area">
+                    <div class="single_footer_area">
+                        <h2 class="first_h2_sin" >Recent Post</h2>
+                        <ul>
+                            <li><a href="#">This is a footer paragraph. </a></li>
+                            <li><a href="#">This is a footer paragraph. </a></li>
+                            <li><a href="#">This is a footer paragraph. </a></li>
+                            <li><a href="#">This is a footer paragraph. </a></li>
+                            <li><a href="#">This is a footer paragraph. </a></li>
+                            <li><a href="#">This is a footer paragraph. </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="single_footer_area">
+                        <h2>Archives</h2>
+                        <ul>
+                            <li><a href="#">January 2024 </a></li>
+                            <li><a href="#">February 2024 </a></li>
+                            <li><a href="#">March 2024 </a></li>
+                            <li><a href="#">April 2024 </a></li>
+                            <li><a href="#">May 2024 </a></li>
+                            <li><a href="#">June 2024 </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="single_footer_area">
+                        <h2>Twitter</h2>
+                        <div class="twitter_section">
+                            <p>This is a twitter paragraph.This is a twitter paragraph.
+                                <a href="#">twitter 2024 </a>This is a twitter paragraph.
+                                This is a twitter paragraph.
+                            </p>   
+                        </div>
+                    </div>
+
+                    <div class="single_footer_area">
+                        <h2>Details</h2>
+                        <p><a href="#">@twitter 2024</a></p>
+                        <img src="img/blogo.png" alt="sm"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+        <!-- footer part footer bottom  -->
+        <div class="container_full main_footer_bg">
+            <div class="fix container">
+                <footer id="footer">
+                    <div class="left_footer">
+                        <p>@Copyright 2024. All Rights Reserved !!!</p>
+                        <input class="input-element1" type="text" name="" value="Search" id="" placeholder="Search">
+                    </div>
+
+                    <div class="right_footer">
+                        <a href="#"><input class="input-element2" type="text" name="" value="Login" id="" placeholder="Login"></a>
+                        <!-- <button class="btn" type="Login" name="" id="">Login</button> -->
+                        <ul>
+                            <li><a href="#"><img src="img/blogo.png" alt="sm"/> </a> </li>
+                            <li><a href="#"><img src="img/blogo.png" alt="sm"/> </a> </li>
+                            <li><a href="#"><img src="img/blogo.png" alt="sm"/> </a> </li>
+                            <li><a href="#"><img src="img/blogo.png" alt="sm"/> </a> </li>
+                        </ul>
+                    </div>
+                </footer>
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+======================================
+CSS
+///////////////////
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container_full{
+    width: 100%; height: auto;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+    /* background-color: aqua; */
+}
+.fix{
+    overflow: hidden;
+}
+
+/* Parmanent Header left and right  */
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+/* ==================== */
+
+body{
+    font-family: sans-serif, Arial; !important;
+    -webkit-transion: all 0.5s ease;
+    transition: all 0,5s ease;
+}
+#header .bg{
+    background-color: white;
+}
+
+
+/* ==========Header Left Side============= */
+
+.header_bg{
+    background-color: #e8e8e8;
+}
+#header{
+    padding:20px 0;
+    overflow: hidden;
+}
+/* #header .logo{
+    float:left;
+    font-weight: bold;
+    font-size: 40px;
+    color:blue;
+} */
+
+#header .logo h1{
+    font-family: lato;
+    font-weight: bold;
+    font-size: 33px;
+    color: blue;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ==========Header Right Side============= */
+
+#header .menu{
+    background-color: #F5F5F5;
+    border-radius: 25px;
+    box-shadow: 1px 1px 2px #AFAFAF;
+    margin-top: 20px;
+    padding: 2px 0;
+}
+
+#header .menu ul{
+    list-style: none;
+}
+#header .menu ul li{
+    float:left;
+    padding: 5px 20px;
+    
+
+    background-image: url(../img/menu_border.png)
+    no-repeat;
+    background-position: center right;
+}
+#header .menu ul li:last-child{
+    background-image: none;
+}
+
+#header .menu ul li:hover{
+    background-image: url(../img/menu_hover.png)
+    no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#header .menu ul li:last-child:hover{
+    background-image: url(../img/menu_hover101.png)
+    no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#header .menu ul li a{
+    display:block;
+    font-family: lato;
+    font-weight: bold;
+    font-size: 19px;
+    color:blue;
+    text-decoration: none;
+}
+
+#header .menu ul li a:hover{
+    /* background-color: black; */
+    color: black;
+}
+
+/* ==========Slider Part========== */
+.slider_bg{
+    background-color: #E8E8E8;
+    margin-bottom: 20px;
+}
+
+.slider_wrapper{
+    overflow: hidden;
+    padding: 30px 0;
+    
+}
+
+.theme-light.slider_wrapper{
+    border-radius: 25px;
+}
+
+/* =====Slider Bottom paragraph part===== */
+
+.slider_bottom_area_bg{
+    background-color: #E8E8E8;
+}
+#slider_wrapper img{
+    /* width: 600px; */
+    height: 430px;
+}
+.slider_bottom_area p{
+    width: 930px;
+    font-family: lato;
+    /* font-weight: bold; */
+    font-size: 14px;
+    color: blue;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+/* body/content Column Box Image Part */
+
+.column_wrapper{
+    margin: 20px 0;
+}
+.column_wrapper_bg{
+    background-color: #E8E8E8;
+    margin-top: 20px;
+}
+
+.single_column{ 
+    text-align: center;
+    width: 185px;
+    float:left;
+    margin-right: 50px;
+}
+
+..single_column h2{
+    font-family: lato;
+    font-size: 10px;
+    color: #515151;
+}
+
+.single_column .view_icon{}
+
+/* If needed single_column Complete line  */
+.col_first{
+    margin-left: 45px;
+ }
+.col_last{
+    margin-right: 0px;
+ }
+
+
+ /* body/content part 2 : About Us & Column Box Image */
+.content_wrapper{
+    margin: 40px 0;
+}
+.content_wrapper_bg{
+    background-color: #E8E8E8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ /* content_left About Us*/
+ 
+ /* image not successfully setup.Please Fix it */
+
+ .content_left{
+    width: 460px;
+    /* for Space between left & right */
+    margin-right: 30px;
+ }
+ #about_us h2{
+    background-image: url(../img/blogo.png) no-repeat;
+    background-position: left center;
+    padding-left: 45px;
+    font-family: lato;
+    font-size: 25px;
+    font-weight: bold;
+    color:#515151;
+ }
+
+ ..content_left p{
+    font-family: lato;
+    font-size: 14px;
+    font-weight: bold;
+    color:#515151;
+ }
+
+ /* content_right */
+
+ .content_right
+ .content_right_h2{
+    background-image: url(../img/blogo.png) no-repeat;
+    background-position: left center;
+    padding-left: 45px;
+    font-family: lato;
+    font-size: 25px;
+    font-weight: bold;
+    color:#515151;
+    margin-bottom: 20px;
+ }
+
+ .content_right ul{
+    list-style: none;
+ }
+ .content_right ul li{
+    float:left;
+    margin: 0 10px;
+    padding: 0px;
+    border-radius: 25px;
+    background-color: aqua;
+ }
+ .content_right ul li a{
+    display: block;
+ }
+
+ .content_right ul li a img{
+    /* padding: -1px; */
+ }
+
+ /* =====footer part===== */
+
+ .footer_top_bg{
+    overflow: hidden;
+    /* background-image: url(../img/....) repeat-x; */
+    background-color: white;
+    background-size: cover;
+    margin-bottom: 20px;
+    border: 2px solid black;
+
+ }
+
+ .single_footer_area{
+    float:left;
+    width: 220px;
+    margin-right: 50px;
+ }
+
+ .single_footer_area h2{
+    font-family: lato;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    margin-top: 20px;
+ }
+ .single_footer_area p{
+    color: black;
+ }
+ .single_footer_area img{
+    width: 80px;
+    height: 80px;
+ }
+
+
+ 
+ /* .first_h2_sin{
+    background-image: url(../img/blogo.png) no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+ } */
+
+ /* ================================ */
+
+ /* footer part footer bottom */
+
+ .container{
+    margin-bottom: 20px;
+ }
+ .main_footer_bg{
+    /* background-image: url(../img/blogo.png) repeat-x;
+    background-size: cover; */
+    background-color: #515151;
+ }
+ .left_footer{
+    float:left;
+ }
+ .left_footer p{
+    color: white;
+    font-family: lato;
+    font-size: 14px;
+    margin: 20px 5px;
+ }
+
+ .right_footer{
+    float: right;
+ }
+
+ .right_footer ul{
+    list-style: none;
+ }
+ .right_footer ul li{
+    margin-top: 20px;
+    /* padding: 5px; */
+    float:left;
+ }
+ .right_footer img{
+    width: 50px;
+    height: 40px;
+    /* margin-right: 30px; */
+ }
+
+ .input-element1{
+    width: 210px;
+    border: 5px solid blue;
+    border-radius: 25px;
+    margin-left: 10px;
+    font-family: lato;
+    font-weight: bold;
+    text-align: center;
+ }
+ .input-element2{
+    width: 210px;
+    border: 5px solid blue;
+    border-radius: 25px;
+    margin-top: 10px;
+    /* margin-right: 20px; */
+    font-family: lato;
+    font-weight: bold;
+    text-align: center;
+ }
+
+ /* .btn{
+    text-align: center;
+    border: 5px;
+ } */
